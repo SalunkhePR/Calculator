@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(53, 52, 52);
+    font-family:  sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color:crimson;
+}
+
+.buttons {
+    padding-left: 485px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    width: 34%;
+ }
+
+.display {
+    text-align: right;
+    appearance: none;
+    outline: none;
+    background: none;
+    border-radius: 1rem;
+    font-size: 40px;   
+}
+
+.buttons button {
+    margin-top: 1rem;
+    outline: none;
+    background: none;
+    border-radius: 1rem;
+    padding: 30px ;
+    background-color:rgb(53, 52, 52);
+    color: crimson;
+    cursor: pointer;
+}
+
+.buttons .ans {
+    background-color: orange;
+    color: black;
+}
